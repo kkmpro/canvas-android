@@ -17,6 +17,9 @@
 
 package com.instructure.dataseeding.util
 
+import DATA_SEEDING_ADMIN_TOKEN
+import DATA_SEEDING_CLIENT_ID
+import DATA_SEEDING_CLIENT_SECRET
 import com.apollographql.apollo.ApolloClient
 import com.apollographql.apollo.network.okHttpClient
 import okhttp3.OkHttpClient
