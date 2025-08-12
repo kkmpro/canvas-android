@@ -40,7 +40,7 @@ object AccountDomainAPI {
     }
 
     fun searchAccounts(query: String?, callback: StatusCallback<List<AccountDomain>>) {
-        if (query == null || query.length < 3) return
+         if (query == null || query.length < 3) return
 
         val adapter = RestBuilder(callback)
         val params = RestParams(
